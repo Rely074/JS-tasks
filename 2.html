@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      "use strict";
+      //1. в примере x=1+(a*=2) по приоритету операторов сначало выполняется то что в скобках(a*=2)
+      //2.(a*=2) это присвоение с умножением получаем a=a*2 т.к. a=2; a=2*2 получаем число 4
+      //3. следовательно x = 1 + 4 получаем число 5
+      //4 a=4,  x=5;
+      let a = 2;
+      let x = 1 + (a *= 2);
+    </script>
+  </body>
+</html>
