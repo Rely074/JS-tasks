@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      "use strict";
+      let arg1 = +prompt("Введите первое число");
+      let arg2 = +prompt("Введите второе число");
+
+      function sum(arg1, arg2) {
+        return arg1 + arg2;
+      }
+      function subtraction(arg1, arg2) {
+        return arg1 - arg2;
+      }
+      function multiplication(arg1, arg2) {
+        return arg1 * arg2;
+      }
+      function division(arg1, arg2) {
+        return arg1 / arg2;
+      }
+
+      let summ = sum(arg1, arg2);
+      alert("Сумма чисел равна " + summ);
+      let sub = subtraction(arg1, arg2);
+      alert("Разность чисел равна " + sub);
+      let mult = multiplication(arg1, arg2);
+      alert("Умножение чисел равно " + mult);
+      let divis = division(arg1, arg2);
+      alert("Деление чисел равно " + divis);
+      
+    </script>
+  </body>
+</html>
